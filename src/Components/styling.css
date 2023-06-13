@@ -1,0 +1,104 @@
+.App{
+    background-color: #edede9;
+    
+}
+.div-todo{
+    text-align: center;
+    border-radius: 15%;
+}
+.divTo{
+    background-color:#1d2d44;
+}
+.divInput{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.TextFieldd{
+    padding-right: 5px;
+    width: 60%;
+}
+.IconBtn:hover{
+    background-color: #607d8b!important;
+}
+
+@media only screen and (max-width: 425px){
+    .Icon{
+        font-size: 1rem !important;
+ }
+}
+.listDiv{
+  display: flex;
+  margin:auto;
+  margin-top: 2rem;
+  border-radius: 1rem;
+  height:fit-content;
+  border: 2px solid #6d6875;
+  padding:2px;
+  text-align: left;
+  width:60%;
+  background-color:#ced0de;
+
+}
+.div1{
+flex: 0 0 auto; 
+background-color: #ced0de;
+flex:50%;
+height: auto;
+margin: 0%;
+padding: 1em;
+font-size: 15px;  
+overflow: auto;
+white-space: normal;
+font-weight: 500; 
+border-radius: 1rem;
+}
+.IcBtn{
+    background-color: white !important;
+    margin-right: 3px !important;
+}
+.IcBtn:hover{
+    background-color: #84a59d !important;
+}
+
+.Icons{
+    /* color: #5e548e; */
+    /* color: #47105e; */
+    color: black;
+}
+.Icons:hover{
+    color:#00296b !important;
+    /* color:#820263; */
+}
+
+.IcoBtn{
+    background-color:#5e548e;
+}
+
+@media screen and (max-width:600px) {
+    .TextFieldd{
+        width: 100%;
+    }
+    .listDiv{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+        border-radius: 1rem;
+        border: none !important;
+        width: 100% !important;
+        padding: 0% !important;
+      }
+      .div1{
+      background-color: #8e9aaf;
+      height: auto;
+      padding: 1em;
+      margin-bottom: 2px;
+      font-size: 15px;  
+      overflow: auto;
+      white-space: normal;
+      font-weight: 500; 
+      border-radius: 1rem;
+      }
+    
+}
+
